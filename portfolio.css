@@ -13,7 +13,7 @@ body {
 }
 
 .me div {
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .me .hell {
@@ -61,12 +61,12 @@ ul {
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 40px;
 }
 
 .intro {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .front {
@@ -94,7 +94,7 @@ ul {
 
 .hire {
   background: gold;
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 40px;
   padding: 12px 25px;
   cursor: pointer;
@@ -102,7 +102,7 @@ ul {
 
 .cv {
   background: gold;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 40px;
   padding: 12px 25px;
   cursor: pointer;
@@ -113,7 +113,7 @@ ul {
 .work {
   background: transparent;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 40px;
   border: 2px solid white;
   padding: 12px 25px;
@@ -123,12 +123,17 @@ ul {
 
 .about {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 60px;
-  flex-wrap: wrap;
-  gap: 40px;
+  /* flex-wrap: wrap; */
+  gap: 90px;
   margin-top: 30px;
+  /* margin-left: 200px; */
+}
+
+.aboutpic {
+  width: 500px;
 }
 
 h2 {
@@ -140,7 +145,7 @@ hr {
 }
 
 .about div {
-  max-width: 600px;
+  max-width: 200px;
 }
 
 .b {
@@ -154,7 +159,7 @@ hr {
 }
 
 .aboutpics {
-  width: 700px;
+  width: 500px;
   margin-left: 80px;
 }
 
